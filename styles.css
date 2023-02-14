@@ -1,5 +1,5 @@
 .main_header {
-    background: aqua;
+    background: #050A04;
     color: #044;
     width: 100%;
     min-height: 100%;
@@ -9,4 +9,8 @@
     text-align:  center;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.main_footer {
+    background: aquamarine;
+    text-align: right;
 }
