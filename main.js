@@ -13,7 +13,8 @@ const listItem = document.querySelector("ul");
 console.log('list ', listItem);
 
     const newItem = document.createElement('ol');
-    newItem.innerHTML = `<ol><li>elements 123</li>
+    newItem.innerHTML = `<ol>
+<li>elements 123</li>
 <li>elements 123</li>
 <li>elements 123</li>
 <li>elements 123</li>
