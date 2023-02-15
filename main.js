@@ -4,5 +4,18 @@ header.innerText = 'Main 1111'
 header.style.color = 'green'
 console.log('Main header', header);
 
-const element1 = document.getElementById('lists');
-console.log('element1 is', element1);
+
+const div = document.getElementById('lists');
+
+const ul = document.getElementsByTagName('ul')[0];
+ul.style.color = '#123';
+const ol = document.createElement('ol');
+
+const uList = div.querySelector('ul');
+uList.replaceWith(ol);
+
+/*
+ul.innerHTML=ol.innerHTML;
+ul.parentNode.replaceChild(ol, ul);
+*/
+
