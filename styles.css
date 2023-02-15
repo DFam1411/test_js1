@@ -11,8 +11,15 @@
     padding-bottom: 30px;
 }
 .main_footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background: aquamarine;
-    text-align: right;
+    text-align: center;
+    padding: 10px;
+    clear: both;
 }
 .lists_header{
     text-align: center;

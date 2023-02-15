@@ -4,18 +4,22 @@ header.innerText = 'Main 1111'
 header.style.color = 'green'
 console.log('Main header', header);
 
+const header2 = document.getElementsByTagName('h2');
+
 
 const div = document.getElementById('list');
 
-const ul = document.getElementsByTagName('ul')[0];
-ul.style.color = '#123';
-const ol = document.createElement('ol');
+const listItem = document.querySelector("ul");
+console.log('list ', listItem);
 
-const uList = div.querySelector('ul');
-uList.replaceWith(ol);
-ul.replaceWith(uList);
-/*
-ul.innerHTML=ol.innerHTML;
-ul.parentNode.replaceChild(ol, ul);
-*/
+    const newItem = document.createElement('ol');
+    newItem.innerHTML = `<ol><li>elements 123</li>
+<li>elements 123</li>
+<li>elements 123</li>
+<li>elements 123</li>
+<li>elements 123</li>
+<li>elements 123</li>
+</ol>
+`;
+    listItem.parentNode.replaceChild(newItem, listItem);
 
