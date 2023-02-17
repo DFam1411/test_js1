@@ -12,13 +12,15 @@
 
       <label>Please, login into the system</label>
     <input id="user_id" placeholder="Username" type="name" required>
-    <input placeholder="Email" type="email" required>
-    <input placeholder="Password" type="password" required>
+    <input id="email" placeholder="Email" type="email"  required>
+    <input id = "passID" name = "password" placeholder="Password" type="password" onkeyup="checkPass()"  required>
+      <div id="error"></div>
       <button onclick="formSubmitted()" type = "submit"> Sign In</button>
 
   </form>
 
 </div>
+
 </body>
 
 <script
