@@ -21,6 +21,13 @@ const objectTest = {
     email: ``,
     password: ``
 }
+function checkUsername() {
+    const uName = document.getElementById('user_id');
+
+    if(uName.value.length >0){
+        uName.style.font = 'Arial';
+    }
+}
 function checkPass(){
     const pass = document.getElementById('passID');
     const colorOK = "#AAEBA8";
@@ -33,6 +40,7 @@ function checkPass(){
     if(pass.value.length >= 8){
         pass.style.backgroundColor = colorOK;
         pass.style.color = '#000'
+        pass.style.font = 'large';
         message.style.color = '#000';
         message.style.font = 'large';
         message.innerHTML="password is strong enough";

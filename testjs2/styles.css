@@ -1,6 +1,11 @@
-
+.SignIn{
+    font-style: inherit;
+}
 .login{
-    background: #BAA9D0;
+
+    /*background: #BAA9D0;
+     */
+    background-image: linear-gradient(to bottom right, #BAA9D0, #0020AB, red);
     border: 1px solid darkorchid;
     display: flex;
     justify-content: center;
@@ -35,4 +40,5 @@ button{
     border-radius: 25px;
     padding: 6px;
     width: 30%;
+
 }
