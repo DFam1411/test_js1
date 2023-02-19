@@ -1,0 +1,30 @@
+.main_header {
+    background: #050A04;
+    color: #044;
+    width: 100%;
+    min-height: 100%;
+}
+
+.main_header h1{
+    text-align:  center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.main_footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: aquamarine;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+.lists_header{
+    text-align: center;
+}
+.before_footer{
+    background: darkorchid;
+    padding: 30px;
+}
