@@ -1,0 +1,17 @@
+.text_class {
+  color: #F21111;
+  font-weight: 900;
+  font-size: 23px; }
+
+.Table {
+  font-family: 'Roboto', sans-serif; }
+  .Table__header {
+    background: #F21111; }
+    .Table__header th:first-child {
+      font-size: 30px;
+      font-style: italic;
+      color: plum; }
+  .Table__body {
+    background: #BAA9D0; }
+  .Table__footer {
+    background: antiquewhite; }
