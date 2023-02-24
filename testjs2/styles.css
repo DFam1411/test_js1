@@ -5,7 +5,7 @@
 
     /*background: #BAA9D0;
      */
-    background-image: linear-gradient(to bottom right, #BAA9D0, #0020AB, red);
+    background-image: linear-gradient(to bottom right, pink, black, purple);
     border: 1px solid darkorchid;
     display: flex;
     justify-content: center;

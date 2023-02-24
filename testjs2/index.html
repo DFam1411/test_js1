@@ -12,7 +12,7 @@
 
       <label>Please, login into the system</label>
     <input id="user_id" placeholder="Username" type="name" required>
-    <input id="email" placeholder="Email" type="email"  required>
+    <input id="email" placeholder="Email" type="email" onkeyup="ValidateEmail()" required>
     <input id = "passID" name = "password" placeholder="Password" type="password" onkeyup="checkPass()"  required>
       <div id="error"></div>
       <button class ="SignIn" onclick="formSubmitted()" type = "submit"> Sign In</button>
