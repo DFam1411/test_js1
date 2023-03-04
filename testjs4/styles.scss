@@ -88,7 +88,7 @@ $round-background: #FFEEDE;
   }
 }
 */
-.food_title {
+.food-title {
   list-style-type: none;
   position: absolute;
   left: 25px;
@@ -96,30 +96,47 @@ $round-background: #FFEEDE;
   margin-left: 23px;
   z-index: 2;
   font-family: 'Poppins';
-  &--price {
+  &__price {
     font-weight: 500;
     font-size: 50px;
     color: #ff922c;
+    margin-bottom: 0;
   }
-  &--title {
-    font-size: 40px;
+  &__title {
+    margin-top: 0;
+    max-width: 367px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 0;
   }
-  &--description {
-    font-size: 15px;
+  &__description {
+    margin-top: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 347px;
+    margin-bottom: 0;
   }
+  &__order-button {
+    margin-top: 30px;
+    background-color: #ff922c;
+    color: #E5E5E5;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: 0;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
 
+.food-content {
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 
 
-.order_button {
-  background-color: #ff922c;
-  color: #E5E5E5;
-  border-color: #ff922c;
-  border-radius: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border: none;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
