@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <div class="wrapper">
     <div class="section__first">
         <header class="header">
+
             <h1 class="logo">
                 <img src="./images/logo.png" alt="Logo">
             </h1>
-            <div class="header__list">
+            <div id="list" class="header__list">
                 <ul class="header__list--items">
                     <li>
                         <a class="header__list--link" href="#">
@@ -37,6 +40,34 @@
             <a class="header__list--link-icon" href="">
                 <img src="./images/log-icon.png" alt="log-icon">
             </a>
+            <div class="nav-bar">
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars hamburger" style="font-size: 20px" ></i>
+                </a>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                    <ul class="hamburger_list">
+                        <li>
+                            <a class="hamburger_link" href="#">
+                                Breakfast
+                            </a>
+                        </li>
+                        <li>
+                            <a class="hamburger_link" href="#">
+                                Lunch
+                            </a>
+                        </li>
+                        <li>
+                            <a class="hamburger_link" href="#">
+                                Dinner
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
         </header>
         <img class="food_image1" src="./images/food-1.png" alt="Food1">
             <div class="food-title">
@@ -55,6 +86,7 @@
                 <button class="food-title__order-button">Order Now</button>
             </div>
             <div class="food-images">
+
 
         </div>
     </div>
