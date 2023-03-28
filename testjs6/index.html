@@ -156,12 +156,96 @@
         </div>
     </section>
 
-    <section>
-        <div class="review">
-            <img src="./images/review-photo.png" alt="reviewPhoto">
-        </div>
-        <div class="arrows">
-            <img src="./images/arrows.png" alt="arrows">
+    <section class="mainSlider d-flex justify-content-center">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="mainSlider__block carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-column align-items-center">
+                            <h4 class ="header_four">What our customer are saying</h4>
+                            <span></span>
+                        </div>
+                        <div class=" slider_text d-flex flex-row justify-content-between">
+                            <div class="person_info d-flex flex-row justify-content-between">
+                                <img src="./images/personPhoto.png" alt="human">
+                                <div class="person_text d-flex flex-column">
+                                    <p>Edward Newgate</p>
+                                    <span>Founder Circle</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="mainSlider__content">
+                                    “Our dedicated patient engagement app and
+                                    web portal allow you to access information instantaneously (no tedeous form, long calls,
+                                    or administrative hassle) and securely”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-column align-items-center">
+                            <h4 class ="header_four">What our customer are saying</h4>
+                            <span></span>
+                        </div>
+                        <div class=" slider_text d-flex flex-row justify-content-between">
+                            <div class="person_info d-flex flex-row justify-content-between">
+                                <img src="./images/personPhoto.png" alt="human">
+                                <div class="person_text d-flex flex-column">
+                                    <p>Edward Newgate</p>
+                                    <span>Founder Circle</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="mainSlider__content">
+                                    “Our dedicated patient engagement app and
+                                    web portal allow you to access information instantaneously (no tedeous form, long calls,
+                                    or administrative hassle) and securely”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-column align-items-center">
+                            <h4 class ="header_four">What our customer are saying</h4>
+                            <span></span>
+                        </div>
+                        <div class="slider_text d-flex flex-row justify-content-between">
+                            <div class="person_info d-flex flex-row justify-content-between">
+                                <img src="./images/personPhoto.png" alt="human">
+                                <div class="person_text d-flex flex-column">
+                                    <p>Edward Newgate</p>
+                                    <span>Founder Circle</span>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="mainSlider__content">
+                                    “Our dedicated patient engagement app and
+                                    web portal allow you to access information instantaneously (no tedeous form, long calls,
+                                    or administrative hassle) and securely”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
     <section>
@@ -175,14 +259,38 @@
     <section>
         <div class="articles">
             <div>
-                <img src="./images/article-1.png" alt="article">
+                <div class="card articles" style="width: 18rem;">
+                    <img src="./images/article-one.png" class="card-img-top" alt="article-photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Disease detection, check
+                            up in the laboratory</h5>
+                        <p class="card-text">In this case, the role of the health laboratory is very important to do
+                            a disease detection...</p>
+                        <a href="#" class="stretched-link readMore_link">Go somewhere ➞</a>
+                    </div>
+                </div>
             </div>
             <div>
-                <img src="./images/article-2.png" alt="article">
-            </div>
+                <div class="card articles" style="width: 18rem;">
+                    <img src="./images/article-two.png" class="card-img-top" alt="article-photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Herbal medicines that are
+                            safe for consumption</h5>
+                        <p class="card-text">Herbal medicine is very widely used at this time because of its very good for your health...</p>
+                        <a href="#" class="stretched-link readMore_link">Go somewhere ➞</a>
+                    </div>
+                </div>            </div>
             <div>
-                <img src="./images/article-3.png" alt="article">
-            </div>
+                <div class="card articles" style="width: 18rem;">
+                    <img src="./images/article-three.png" class="card-img-top" alt="article-photo">
+                    <div class="card-body">
+                        <h5 class="card-title">Natural care for healthy
+                            facial skin</h5>
+                        <p class="card-text">A healthy lifestyle should start from now and also for your skin health.
+                            There are some...</p>
+                        <a href="#" class="stretched-link readMore_link">Go somewhere ➞</a>
+                    </div>
+                </div>            </div>
         </div>
         <div class="view_all_button">
         <button class="button_two"> View all </button>
@@ -190,18 +298,68 @@
     </section>
     <footer >
         <div class="footer">
-            <div>
+            <div class="footer__block d-flex flex-row justify-content-between ">
+                <div class="first_block d-flex flex-column">
+                    <div class="footer_first_header">
+                       <h5 >
+                           <img src="./images/TTTT.png" alt="foot_logo">
+                       </h5>
+                    </div>
+                    <div>
+                        <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online
+                            for everyone</p>
+                    </div>
+
+                    <div>
+                        <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+                    </div>
+                 </div>
+            <div class="footer_block_two d-flex flex-column">
+                <h6 class="footer_headers">Company</h6>
+                <a class="footer_list_link" href="#">
+                    Find a doctor
+                </a>
+                <a class="footer_list_link" href="#">
+                    Find a doctor
+                </a>
+                <a class="footer_list_link" href="#">
+                    Find a doctor
+                </a>
+                <a class="footer_list_link" href="#">
+                    Find a doctor
+                </a>
 
             </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
+                <div class="footer_block_two d-flex flex-column">
+                    <h7 class="footer_headers">Regions</h7>
+                    <a class="footer_list_link" href="#">
+                        Find a doctor
+                    </a>
+                    <a class="footer_list_link" href="#">
+                        Find a doctor
+                    </a>
+                    <a class="footer_list_link" href="#">
+                        Find a doctor
+                    </a>
+                    <a class="footer_list_link" href="#">
+                        Find a doctor
+                    </a>
+                </div>
+                <div class="footer_block_two d-flex flex-column">
+                    <h8 class="footer_headers">Help</h8>
+                    <a class="footer_list_link" href="#">
+                        Find a doctor
+                    </a>
+                    <a class="footer_list_link" href="#">
+                        Find a doctor
+                    </a>
+                    <a class="footer_list_link" href="#">
+                        Find a doctor
+                    </a>
+                    <a class="footer_list_link" href="#">
+                        Find a doctor
+                    </a>
+                </div>
         </div>
     </footer>
 </div>
