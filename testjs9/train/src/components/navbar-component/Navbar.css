@@ -1,0 +1,19 @@
+.Navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+    padding: 16px;
+    margin: 20px 20px;
+}
+
+.Navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Navbar a:hover {
+    text-decoration: underline;
+}
