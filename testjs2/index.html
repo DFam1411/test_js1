@@ -3,42 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<header class ="main_header">
-    <h1 id="first-header">
-        Main Header
-    </h1>
-</header>
-<main>
-    <div id = "list">
-        <h2 class="lists_header">Our lists</h2>
-            <ul>
-                <li>elements 123</li>
-                <li>elements 123</li>
-                <li>elements 123</li>
-                <li>elements 123</li>
-                <li>elements 123</li>
-                <li>elements 123</li>
-            </ul>
-    </div>
-</main>
-<div class = "before_footer">
+<body class = "main page">
+<div class = "login">
+
+  <form class = "login_form" method="post" action="">
+
+      <label>Please, login into the system</label>
+    <input id="user_id" placeholder="Username" type="name" required>
+    <input id="email" placeholder="Email" type="email"  required>
+    <input id = "passID" name = "password" placeholder="Password" type="password" onkeyup="checkPass()"  required>
+      <div id="error"></div>
+      <button class ="SignIn" onclick="formSubmitted()" type = "submit"> Sign In</button>
+
+  </form>
 
 </div>
-<footer class="main_footer">
-    <div>
-        <p id="footer_One">
-            main footer
-        </p>
-    </div>
-</footer>
+
 </body>
-<style
-    src ="styles.css">
-</style>
+
 <script
-        src="main.js">
+  src = "main.js">
 </script>
+
 </html>

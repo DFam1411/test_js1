@@ -1,0 +1,28 @@
+$text-color: #F21111;
+
+.header1 {
+  background: plum;
+}
+.text_class {
+  color: $text-color;
+  font-weight: 900;
+  font-size: 23px;
+}
+
+.Table {
+  font-family: 'Roboto', sans-serif;
+  &__header{
+    background: #F21111;
+    th:first-child {
+      font-size: 30px;
+      font-style: italic;
+      color: plum;
+    }
+  };
+  &__body {
+    background: #BAA9D0;
+  };
+  &__footer {
+    background: antiquewhite;
+  };
+}

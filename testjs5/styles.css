@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap");
+.food_image1 {
+  position: absolute;
+  right: 305px;
+  top: 300px;
+  z-index: 1; }
+
+.wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto; }
+
+.section__first {
+  min-height: 100vh;
+  background: #E5E5E5;
+  position: relative;
+  overflow: hidden; }
+  .section__first:before {
+    position: absolute;
+    z-index: 1;
+    content: '';
+    background: #FFEEDE;
+    width: 1000px;
+    height: 1000px;
+    right: 0;
+    top: -500px;
+    border-radius: 50%; }
+
+.logo {
+  margin-left: 60px; }
+
+.header {
+  font-family: 'Poppins';
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3; }
+  .header__list {
+    padding-right: 300px;
+    font-weight: 500;
+    font-size: 14px; }
+    .header__list--items {
+      display: flex;
+      list-style-type: none; }
+    .header__list--link {
+      margin-right: 63px;
+      text-decoration: none;
+      color: #333333; }
+      .header__list--link:hover {
+        opacity: 0.85;
+        border-bottom: 1px solid #333333; }
+      .header__list--link-icon {
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .header__list--link-icon:hover {
+          background-color: rgba(0, 255, 0, 0.3);
+          border-radius: 50%; }
+
+.hamburger {
+  display: none; }
+
+/*
+.food_title {
+  list-style-type: none;
+  position: absolute;
+  margin-left: 23px;
+  z-index: 2;
+  &__price {
+    font-style: normal;
+    font-weight: 500;
+  }
+}
+*/
+.food-title {
+  list-style-type: none;
+  position: absolute;
+  left: 25px;
+  bottom: 250px;
+  margin-left: 23px;
+  z-index: 2;
+  font-family: 'Poppins'; }
+  .food-title__price {
+    font-weight: 500;
+    font-size: 50px;
+    color: #ff922c;
+    margin-bottom: 0; }
+  .food-title__title {
+    margin-top: 0;
+    max-width: 367px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 0; }
+  .food-title__description {
+    margin-top: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 347px;
+    margin-bottom: 0; }
+  .food-title__order-button {
+    margin-top: 30px;
+    background-color: #ff922c;
+    color: #E5E5E5;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: 0;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.food-content {
+  display: flex;
+  flex-direction: row; }
+
+.nav-bar {
+  display: none; }
+
+@media only screen and (max-width: 968px) {
+  .nav-bar {
+    display: block; }
+  .icon {
+    text-decoration: none;
+    margin-left: 200px;
+    margin-right: 10px;
+    position: relative;
+    left: 80%; }
+  #list {
+    display: none !important; }
+  .hamburger {
+    display: block;
+    color: #333333; }
+  .hamburger_list {
+    list-style-type: none;
+    background: #ff912c;
+    border-radius: 8px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 50px; }
+  .hamburger_link {
+    display: flex;
+    list-style-type: none;
+    margin-right: 63px;
+    text-decoration: none;
+    color: #333333; }
+    .hamburger_link:hover {
+      opacity: 0.85;
+      border-bottom: 1px solid #333333; }
+  .header__list--link-icon {
+    display: none; } }
+
+@media (max-width: 980px) {
+  .food-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column; }
+  .food-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px !important;
+    width: 200px;
+    padding: 0 20px;
+    position: absolute;
+    top: 22%;
+    left: 23%;
+    margin: -50px 0 0 -50px; }
+    .food-title__title {
+      max-width: 100%;
+      text-align: center; }
+    .food-title__description {
+      text-align: center;
+      max-width: 100%; } }
