@@ -1,0 +1,44 @@
+.SignIn{
+    font-style: inherit;
+}
+.login{
+
+    /*background: #BAA9D0;
+     */
+    background-image: linear-gradient(to bottom right, #BAA9D0, #0020AB, red);
+    border: 1px solid darkorchid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 auto;
+}
+.login_form{
+    border: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+label{
+    color: #F6F0F8;
+    margin-bottom: 15px;
+    font-size: large;
+    font-style: initial;
+    font-weight: bold;
+}
+input{
+    background: #F6F0F8;
+    margin-bottom: 7px;
+    border-radius: 25px;
+    padding: 6px;
+}
+button{
+    background: lavenderblush;
+    margin-bottom: 7px;
+    border-radius: 25px;
+    padding: 6px;
+    width: 30%;
+
+}
